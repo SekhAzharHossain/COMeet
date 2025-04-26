@@ -6,7 +6,7 @@ const LoginPage = () => {
   return (
     <main className=' flex flex-col items-center p-5 gap-10'> 
         <div className='mt-3'>
-            <SignIn routing='hash'
+            <SignIn
                 appearance={
                     {
                         baseTheme:neobrutalism
