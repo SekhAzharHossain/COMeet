@@ -42,13 +42,13 @@ const StatusBar = () => {
           {/* Render the DateAndTime component */}
           <DateAndTime/>
           {/* Display home image */}
-          <Image 
+          {/* <Image 
             src='/assets/home-image.svg' 
             width={400} 
             height={400} 
             alt="home image" 
             className="max-md:hidden -ml-16"
-          />
+          /> */}
       </section>
     )
   }
@@ -63,14 +63,14 @@ const StatusBar = () => {
       </h2>
       {/* Render the DateAndTime component */}
       <DateAndTime/>
-      {/* Display an image with specific styles */}
-      <Image 
+      {/* Display an  with specific styles */}
+      {/* <Image 
         src='/assets/home-image.svg' 
         width={400} 
         height={400} 
         alt="home image" 
         className="max-md:hidden -ml-16"
-      />
+      /> */}
     </section>
   )
 }

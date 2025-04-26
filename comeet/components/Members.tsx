@@ -35,7 +35,7 @@ const Members = ({ call }: MembersProps) => {
                       key={user.id} // Unique key for React list rendering
                       src={user.image} // User avatar image
                       alt="attendees"
-                      width={40} // Image width
+                      width={40} //  width
                       height={40} // Image height
                       className={cn("rounded-full", { absolute: index > 0 })} // First image is static, others are positioned
                       style={{ top: 0, left: index * 28 }} // Position images in a stacked manner

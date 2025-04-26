@@ -3,21 +3,21 @@
 import Image from "next/image";
 
 interface MenuItemCardProps {
-    img: string;
+    // img: string;
     title: string;
     bgColor: string;
     hoverColor: string;
     handleClick?: () => void;
   }
 
-const MenuItemCard = ({ bgColor, hoverColor , img, title, handleClick }: MenuItemCardProps) => {
+const MenuItemCard = ({ bgColor, hoverColor , title, handleClick }: MenuItemCardProps) => {
     return (
         <section
             className={`${bgColor} ${hoverColor} menu-item-card shadow-2xl`}
              onClick={handleClick}
         >
           <div >
-            <Image src={img} alt="meeting" width={50} height={50} />
+            {/* <Image src={img} alt="meeting" width={50} height={50} /> */}
           </div>
           
           <div className="">

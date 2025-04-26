@@ -18,7 +18,7 @@ const Alert = ({ title, iconUrl }: AlertProps) => {
             <div className="flex flex-col gap-3.5">
               {iconUrl && (
                 <div className="flex-center">
-                  <Image src={iconUrl} width={72} height={72} alt="icon" />
+                  {/* <Image src={iconUrl} width={72} height={72} alt="icon" /> */}
                 </div>
               )}
               <p className="text-center text-xl font-semibold">{title}</p>

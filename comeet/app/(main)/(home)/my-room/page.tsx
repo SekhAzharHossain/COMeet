@@ -84,7 +84,7 @@ const MyRoomPage = () => {
           }}
         >
           {/* Copy icon */}
-          <Image src="/assets/copy.svg" alt="copy" width={20} height={20} />
+          {/* <Image src="/assets/copy.svg" alt="copy" width={20} height={20} /> */}
           Copy Invitation
         </Button>
       </div>

@@ -104,7 +104,7 @@ const MainMenu = () => {
             <Dialog >
                 <DialogTrigger >
                     <MenuItemCard
-                            img="/assets/new-meeting.svg"
+                            // img="/assets/new-meeting.svg"
                             title="New Meeting"
                             bgColor='bg-orange-500'
                             hoverColor= 'hover:bg-orange-800'
@@ -143,7 +143,7 @@ const MainMenu = () => {
       <Dialog >
           <DialogTrigger>
             <MenuItemCard
-            img="/assets/join-meeting.svg"
+            // img="/assets/join-meeting.svg"
             title="Join Meeting"
             bgColor="bg-blue-600"
             hoverColor= 'hover:bg-blue-800'
@@ -181,7 +181,7 @@ const MainMenu = () => {
       <Dialog >
           <DialogTrigger>
               <MenuItemCard
-              img="/assets/calendar.svg"
+              // img="/assets/calendar.svg"
               title="Schedule"
               bgColor="bg-blue-600"
               hoverColor= 'hover:bg-blue-800'
@@ -232,7 +232,7 @@ const MainMenu = () => {
       </Dialog>
 
   <MenuItemCard
-    img="/assets/recordings2.svg"
+    // img="/assets/recordings2.svg"
     title="Recordings"
     bgColor="bg-blue-600"
     hoverColor= 'hover:bg-blue-800'
