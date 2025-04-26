@@ -133,11 +133,5 @@ Feel free to submit issues, pull requests, or suggest new features!
 
 ---
 
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
 # 🚀 Let's make collaboration easy with **Comeet**!
 
